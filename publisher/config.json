@@ -1,0 +1,13 @@
+{
+  "protocol": {
+    "mqtt":{
+      "serverAddress": "{server_address}",
+      "port": 1883,
+      "topic": "/{service}/{device_id}/attrs"
+    }
+  },
+  "device":{
+    "frequency": true,
+    "duration": 5000
+  }
+}
